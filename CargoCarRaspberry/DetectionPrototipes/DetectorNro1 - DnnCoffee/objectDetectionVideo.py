@@ -27,7 +27,7 @@ net = cv2.dnn.readNetFromCaffe(prototxt, model)
 
 #Video Capture 
 
-capture = cv2.VideoCapture('./Test/KoreaTest.mp4')
+capture = cv2.VideoCapture(0)
 
 while True:
 	

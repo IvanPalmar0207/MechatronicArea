@@ -20,7 +20,7 @@ print(f'Yolov8 model classes: {model.names}')
 #Second Step
 videoPath = './Videos/motoVideo.mp4'
 
-capture = cv2.VideoCapture(videoPath)
+capture = cv2.VideoCapture(0)
 
 ret = True
 #Third Step

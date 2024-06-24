@@ -23,7 +23,7 @@ with open(fileName,'rt') as fn:
     classLabels = fn.read().rstrip('\n').split('\n')
     
 #Video detection
-capture = cv2.VideoCapture('./Test/videos/KoreaTest.mp4')
+capture = cv2.VideoCapture(0)
 
 #The next code checks if the video y open correctly
 if not capture.isOpened():
